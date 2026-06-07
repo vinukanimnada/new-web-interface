@@ -9,6 +9,9 @@ const buttons =
   document.querySelectorAll(
     ".sidebar nav button");
 
+const nav = 
+  sidebar.querySelector("nav");
+
 buttons[0].classList.add("active");
 
 buttons.forEach((button, index) =>
